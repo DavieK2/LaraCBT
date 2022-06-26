@@ -1,0 +1,12 @@
+.newsidebar {
+    height: 100%;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 1
+}
+
+@media screen and (max-height: 700px) {
+    .newcontent {
+        margin-left: 19vw;
+    }
+}
